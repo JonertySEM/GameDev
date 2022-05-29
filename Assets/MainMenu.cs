@@ -1,7 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine;
+using System.Collections;
 
 public class MainMenu : MonoBehaviour
 {
@@ -9,7 +9,6 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("Game Exit");
         Application.Quit();
-;
     }
     
 }
